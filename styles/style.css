@@ -1,0 +1,413 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+
+p {
+    font-size: 18px;
+}
+img.brand-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+img.title-img {
+    width: 1140px;
+    height: 403px;
+    margin: auto;
+    object-fit: cover;
+}
+
+#attraction {
+    text-align: center;
+}
+
+img.signature {
+    text-align: center;
+    width: 300px;
+    margin: 20px auto 100px;
+}
+
+img.side-img1 {
+    width: 500px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.descriptive-images {
+    width: 50px;
+    height: 50px;
+    object-fit: scale-down;
+}
+
+.gallery{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+
+.button {
+    background-color: #2E0249;
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.button:hover {
+    background-color: #4f0080;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* intro */
+#title {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.intro1 {
+    background-color: #2E0249;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    padding-top: 50px !important;
+    width: 300px;
+    bottom: 100px;
+    left: 40px;
+}
+
+.intro1 h1 {
+    margin-bottom: 30px;
+}
+
+.intro1 p {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#intro {
+    margin: 0 100px 50px;
+    position: relative;
+}
+
+.intro2 {
+    height: 360px;
+    width: 327px;
+}
+.intro3 p {
+    margin-bottom: 50px;
+    width: 80%;
+}
+/* attraction */
+#attraction {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#attraction h1 {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px; 
+}
+
+#attraction p {
+    margin-bottom: 50px;
+    width: 70%;
+    margin: auto;
+}
+
+#attraction h2 {
+    width: 70%;
+    margin-bottom: 20px;
+}
+#attraction .description-one {
+    margin-bottom: 50px;
+}
+
+div.side-row1, div.side-row2{
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+div.side-text1{
+    position: relative;
+    top: 25%;
+    text-align: right;
+    padding-left: 50px;
+}
+
+div.side-text1 p, div.side-text2 p {
+    margin-bottom: 70px;
+}
+
+div.side-text1 a.button, div.side-text2 a.button {
+    padding: 20px 25px;
+}
+
+div.side-text2 {
+    position: relative;
+    top: 25%;
+    padding-left: 50px ;
+}
+
+div.colored {
+    background-color: #f4e8fc;
+}
+
+div.features {
+    padding: 30px;
+    width: 100%;
+}
+/* about */
+#about {
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#about img {
+    margin-bottom: 20px;
+}
+
+/* projects */
+#projects {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#projects img.gallery {
+    object-fit: cover;
+}
+
+#projects img.bottom-m{
+    margin-bottom: 30px;
+}
+
+#projects p {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#projects i {
+    color: #000;
+    margin: 5px;
+}
+
+#satisfaction {
+    background-color: #f4e8fc;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#satisfaction h1 {
+    font-weight: 900;
+    font-size: 8rem;
+    color: #2E0249;
+    margin-top: 60px;
+}
+
+#satisfaction p.bold-p {
+    font-size: 2.5rem;
+    font-weight: 500;
+    width: 80%;
+    color: black;
+    margin: auto;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+#satisfaction input[type="email"] {
+    width: 40%;
+    height: 12%;
+    margin-right: 17px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+#satisfaction input[type="submit"] {
+    height: 12%;
+    width: 10%;
+    background-color: #2E0249;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#satisfaction input[type="submit"]:hover {
+    background-color: #4f0080;
+}
+
+#satisfaction input {
+    margin-bottom: 40px;
+}
+
+#satisfaction p {
+    margin-bottom: 8%;
+}
+/* team */
+
+#team {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#team a {
+    padding: 20px 35px;
+}
+#team .team-header {
+    padding-left: 120px;
+    padding-right: 30px;
+}
+#team h1 {
+    text-align: right;
+    font-weight: 800;
+}
+
+#team p {
+    margin-bottom: 60px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+img.meet-the-team {
+    height: 327px;
+    width: 320px;
+    object-fit: cover;
+}
+figcaption {
+    margin-top: 15px;
+    text-align: center;
+
+}
+#meet-the-members {
+    margin: 100px;
+}
+.job-desc{
+    color: #2E0249;
+    font-size: large;
+    font-weight: 600;
+}
+.team-name {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.social-icons i {
+    margin: 5px;
+}
+figcaption p {
+    line-height: 0.5;
+}
+
+figcaption i {
+    color: #000
+}
+/* contact */
+
+#contact {
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+
+p[class="address"] {
+    width: 50%;
+}
+
+div.contact-desc {
+    background-color: #2E0249;
+    color: #f4e8fc;
+    padding: 30px;
+}
+
+#contact h4 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.contact-form textarea {
+    background-color: #e5bcff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    display: block;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    background-color: #e5bcff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    display: block;
+    height: 45px;
+    width: 345px;
+}
+
+.contact-form h1 {
+    color: #2E0249;
+    font-weight: 700;
+}
+
+.contact-desc p {
+    line-height: 2;
+}
+
+.contact-desc .p1 {
+    line-height: 2;
+    font-weight: 600;
+}
+
+.contact-form input[type="submit"] {
+    height: 45px;
+    width: 345px;
+    background-color: #2E0249;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-info .c2 ~ p, .contact-info .contact-num {
+    line-height: 0.5;
+}
+
+.contact-info, .contact-form {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin-top: 70px;
+    color: #eee;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 70px;
+}
