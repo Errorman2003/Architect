@@ -52,6 +52,16 @@ body {
   margin-right: auto;
   border-radius: 50%;
 }
+.navigation__fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(248, 249, 250, 0.9);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+}
 .navigation__toggle {
   display: none;
 }
@@ -77,15 +87,6 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  .navigation {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    background-color: rgba(248, 249, 250, 0.9);
-    -webkit-backdrop-filter: blur(1rem);
-            backdrop-filter: blur(1rem);
-  }
   .navigation__toggle {
     display: block;
     z-index: 5;
@@ -312,6 +313,19 @@ body {
 
 .w-80 {
   width: 80%;
+}
+
+.scroll-animate {
+  -webkit-transform: translateY(10rem);
+          transform: translateY(10rem);
+  opacity: 0;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.scroll-animate--visible {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .heading-1 {
