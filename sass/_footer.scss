@@ -1,0 +1,13 @@
+.footer{
+    height: 10rem;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    
+    &__text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

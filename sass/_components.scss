@@ -1,0 +1,42 @@
+
+.mb-small{
+    margin-bottom: 2rem;
+}
+
+.mb-medium{
+    margin-bottom: 4rem;
+}
+
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+.button{
+    display: inline-block;
+    background-color: #2E0249;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    transition: all .2s;
+
+    &--large{
+        padding: 1.8rem 2.8rem;
+    }
+
+    &:hover {
+        background-color: #4f0080;
+    }
+}
+
+.w-80{
+    width: 80%;
+}

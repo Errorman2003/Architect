@@ -1,0 +1,27 @@
+.about {
+  max-width: 114rem;
+  margin: 0 auto 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+    @media only screen and (max-width: $bp-large){
+    padding: $pd-small;
+}
+
+  &__desc {
+    padding: 4rem;
+
+    & > *:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    &--coloured {
+      background-color: var(--color-purple-gray);
+    }
+
+    &--img {
+      display: block;
+      height: 3rem;
+    }
+  }
+}

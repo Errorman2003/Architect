@@ -1,0 +1,52 @@
+.heading-1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.heading-2 {
+  font-size: 3.5rem;
+}
+
+.heading-3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.heading-4 {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.p-text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 500;
+
+
+
+
+  // color
+  &--white {
+    color: #fff;
+  }
+  &--purple {
+    color: var(--color-primary);
+  }
+
+  // font size
+  &--medium{
+    font-size: 1.8rem;
+  }
+  &--large {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+
+  &--huge {
+    font-size: 12rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+}

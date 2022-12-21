@@ -1,0 +1,44 @@
+.gallery {
+  max-width: 114rem;
+  margin: 0 auto 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+
+  @media only screen and (max-width: $bp-large){
+    margin: 0 auto 3rem;
+    padding: $pd-small;
+}
+
+  &__img {
+    max-height: 30rem;
+    overflow: hidden;
+    img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__text {
+    grid-column: 1/-1;
+    width: 60%;
+    justify-self: center;
+  }
+
+  &__icons {
+    grid-column: 1/-1;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+
+    i {
+      font-size: 3rem;
+      background-color: var(--color-primary);
+      background-clip: text;
+      color: transparent;
+    }
+  }
+}

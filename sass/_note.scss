@@ -1,0 +1,13 @@
+.note{
+max-width: 114rem;
+margin: 6rem auto 10rem;
+    &__heading{
+        width: 60%;
+        margin: 0 auto 6rem;
+    }
+    &__text{
+        width: 70%;
+        margin: 0 auto 3rem;
+
+    }
+}
