@@ -51,6 +51,7 @@
 
     <header class="header">
       <picture class="header__img">
+        <source srcset="images/header.webp">
         <source srcset="images/header-mobile.jpg" media="(max-width:37.5em)">
         <img
           class=""
@@ -131,18 +132,20 @@
           <a class="button" href="#">Read More</a>
         </div>
         <div class="project__img project__img--1">
-          <img
-            class="side-img1"
-            src="images/project-1.jpg"
-            alt="skyhigh skyscraper"
-          />
+          <picture>
+            <source srcset="images/project-1.webp">
+            <source srcset="images/project-1-mobile.webp" media="(max-width: 37.5em)" alt="skyhigh skyscraper">
+            <img class="side-img1" src="images/project-1.jpg" alt="skyhigh skyscraper" />
+          </picture>
+          
         </div>
         <div class="project__img project__img--2">
-          <img
-            class="side-img1"
-            src="images/project-2.jpg"
-            alt="skyhigh skyscraper"
+          <picture>
+            <source srcset="images/project-2.webp" alt="skyhigh skyscraper">
+              <img class="side-img1" src="images/project-2.jpg" alt="skyhigh skyscraper"
           />
+          </picture>
+        
         </div>
         <div class="project__desc project__desc--2">
           <h3 class="heading-3 mb-small">
